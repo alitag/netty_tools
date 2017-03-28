@@ -58,6 +58,7 @@ public class ConnectorBuilder {
 	 * 
 	 * @return 生成的Bootstrap对象
 	 */
+	@SuppressWarnings("deprecation")
 	public synchronized Bootstrap getConnector() {
 		if (connector == null) {
 			connector = new Bootstrap();

@@ -62,6 +62,7 @@ public class AcceptorBuilder {
 	 * 
 	 * @return 生成的ServerBootstrap对象
 	 */
+	@SuppressWarnings("deprecation")
 	public synchronized ServerBootstrap getAcceptor() {
 		if (acceptor == null) {
 			acceptor = new ServerBootstrap();
